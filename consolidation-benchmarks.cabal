@@ -1,0 +1,46 @@
+name:                consolidation-benchmarks
+version:             0.1.0.0
+synopsis:            Initial project template from stack
+description:         Please see README.md
+homepage:            https://github.com/githubuser/consolidation-benchmarks#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Author name here
+maintainer:          example@example.com
+copyright:           2016 Author name here
+category:            Web
+build-type:          Simple
+extra-source-files:
+
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     MapR1
+                     , MapR2
+                     , FilterR1
+                     , FilterR2
+                     , FilterR3
+                     , FilterR4
+                     , FoldR1
+                     , Wrapper
+  other-modules:       Utils
+
+  build-depends:       base >= 4.7 && < 5
+                     , criterion
+                     , containers
+                     , random
+                     , weigh
+                     , vector-opt
+                     , MissingH
+
+  default-language:    Haskell2010
+
+executable cons-bench
+  hs-source-dirs:      app
+  main-is:             Main.hs
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base
+                     , consolidation-benchmarks
+  default-language:    Haskell2010
+
