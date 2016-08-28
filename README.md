@@ -1,7 +1,7 @@
 # Consolidation Benchmarks
 
 This repo provides all the benchmarks used for my masters thesis [Consolidation
-of Haskell programs](www.aesadde.xyz/Consolidation).
+of Haskell programs](http://aesadde.xyz/Consolidation/).
 
 It contains a set of 12 (`f1_all` and `m2_all` contain 2 tests each) benchmarks:
   * `m1_addone`
