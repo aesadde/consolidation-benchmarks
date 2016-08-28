@@ -1,0 +1,16 @@
+!_TAG_FILE_SORTED	1	~
+Base	Base.hs	14;"	m
+MVector	Base.hs	26;"	c
+basicClear	Base.hs	70;"	f
+basicInitialize	Base.hs	52;"	f
+basicLength	Base.hs	29;"	f
+basicOverlaps	Base.hs	40;"	f
+basicSet	Base.hs	74;"	f
+basicUnsafeCopy	Base.hs	78;"	f
+basicUnsafeGrow	Base.hs	90;"	f
+basicUnsafeMove	Base.hs	84;"	f
+basicUnsafeNew	Base.hs	44;"	f
+basicUnsafeRead	Base.hs	61;"	f
+basicUnsafeReplicate	Base.hs	57;"	f
+basicUnsafeSlice	Base.hs	33;"	f
+basicUnsafeWrite	Base.hs	65;"	f
