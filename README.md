@@ -1,19 +1,19 @@
 # Consolidation Benchmarks
 
-This repo provides all the benchmarks used for my masters thesis "Consolidation
-of Haskell programs".
+This repo provides all the benchmarks used for my masters thesis [Consolidation
+of Haskell programs](aesadde.xyz/Consolidation).
 
-It contains a set of 12 (f1_all and m2_all contain 2 tests each) benchmarks:
-  * m1_addone
-  * m1_cub
-  * m2_all
-  * f1_all
-  * f2_lists
-  * f2_vectors
-  * f3_simple
-  * f3_complex
-  * f4_sum
-  * f4_tuple
+It contains a set of 12 (`f1_all` and `m2_all` contain 2 tests each) benchmarks:
+  * `m1_addone`
+  * `m1_cub`
+  * `m2_all`
+  * `f1_all`
+  * `f2_lists`
+  * `f2_vectors`
+  * `f3_simple`
+  * `f3_complex`
+  * `f4_sum`
+  * `f4_tuple`
 
 ## Running instructions
 
